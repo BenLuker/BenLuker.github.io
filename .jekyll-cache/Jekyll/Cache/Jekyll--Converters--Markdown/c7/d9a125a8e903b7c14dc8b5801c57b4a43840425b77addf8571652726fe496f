@@ -1,0 +1,52 @@
+I"«<p>For the Spring semester of 2020, I took a course titled Intro to 3D Worlds. The class was about developing 3D models
+    and then bringing them into the real world through the process of milling, laser cutting, and 3D printing. Then
+    Corona virus happened and everyone was stuck in quarantine. From that point, the class shifted to entirely creating
+    3D models and at the last minute, animating them. Our final assignment for the class was to create a still life in
+    Maya and animate it. Because the class had just been introduced to Maya, the example our professor had provided us
+    looked something like this. </p>
+
+<p><img src="../assets/img/StillLife_Example.jpg" /></p>
+
+<p> We were given a couple weeks to finish the assignment which was ample time to complete the project. However, I was
+    already familiar with Maya, so I
+    decided that I wanted to hold myself to a higher standard and push my limits. As I started, I discovered what I
+    wanted the animation to be.</p>
+
+<p> Firstly, I wanted my scene to <i>look</i> like a still life. You know what I'm talking about. Wooden table with a
+    white tablecloth. Dark background and crazy reflections in the surfaces. And who can forget the fruit?
+</p>
+
+<p><img src="../assets/img/StillLife_Painting.jpg" /></p>
+
+<p> Now that's a Still Life baby! So that's where I started. I modeled and unwrapped the table in Maya, then moved it
+    over to Substance Painter to texture it. Then I brought it back into maya to drape the tablecloth over it. This was
+    my second biggest inspiration for the project. It looked really cool to see the simulation of the tablecloth draping
+    over the table and thought "hey, why don't I make the whole animation like this?" So that's what I did! I made the
+    rest of the objects, learned about Maya's bullet physic simulations, cached those
+    simulations and I had something looking pretty sweet. </p>
+
+<p> <i>But that was not good enough.</i> Funnily enough, things move pretty fast when you drop them. When I had the
+    timing I wanted down, I realized I had only filled half of the mandatory 15 second length requirement. But if I
+    extended the timings there would be too much dead time in between each action. What could I do? After consulting
+    with my professor, I suggested that I could make it loop. He said as long as it was seamless that I should be fine.
+    And so I began working on that!</p>
+
+<p>When creating
+the tablecloth through
+the nCloth simulation in Maya, I loved watching the cloth simulating
+and becoming a tablecloth. I wanted my animation to capture that feeling of it all coming together in that same way
+&lt;/p&gt;
+&lt;/p&gt;</p>
+
+<p><img src="../assets/img/StilLife.gif" /></p>
+
+<p>More Text here
+</p>
+
+<p><img src="../assets/img/StillLife_2.png" /></p>
+
+<p><img src="../assets/img/StillLife_3.png" />
+<img src="../assets/img/StillLife_4.png" />
+<img src="../assets/img/StillLife_5.png" />
+<img src="../assets/img/StillLife_6.png" /></p>
+:ET
