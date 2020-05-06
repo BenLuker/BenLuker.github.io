@@ -1,4 +1,4 @@
-I"&<p>For the school spring semester of 2020, I took a course titled Intro to 3D Worlds. The class was about developing 3D
+I"\<p>For the school spring semester of 2020, I took a course titled Intro to 3D Worlds. The class was about developing 3D
     models and then bringing them into the real world through the process of milling, laser cutting, and 3D printing.
     Then
     Corona virus happened and everyone was stuck in quarantine. From that point, the class shifted to entirely creating
@@ -22,15 +22,17 @@
     moved it
     over to Substance Painter to texture it. Then I brought it back into maya to drape the tablecloth over it. This was
     my second biggest inspiration for the project. It looked really cool to see the simulation of the tablecloth draping
-    over the table and thought "hey, why don't I make the whole animation like this?" So that's what I did! I made the
-    rest of the objects, learned about Maya's bullet physic simulations, cached those
+    over the table and so I thought "hey, why don't I make the whole animation like this?" So that's what I did! I made
+    the
+    rest of the objects, learned about Maya's bullet physic simulations so I could literally throw them into the scene,
+    cached those
     simulations and I had something looking pretty sweet.</p>
 
 <p> <i>But that was not good enough.</i> Funnily enough, things move pretty fast when you drop them. When I had the
     timing I wanted down, I realized I had only filled half of the mandatory 15 second length requirement. But if I
     extended the timings there would be too much dead time in between each action. What could I do? After consulting
     with my professor, I suggested that I could make it loop. He said as long as it was seamless that I should be fine.
-    Sick! Time to render this baby out and.... oh yeah. I haven't lit my scene yet. Easy enough, quickly through in some
+    Sick! Time to render this baby out and.... oh yeah. I haven't lit my scene yet. Easy enough, quickly throw in some
     lights and...
 </p>
 
@@ -54,5 +56,5 @@
 <img src="../assets/img/StillLife_4.png" />
 <img src="../assets/img/StillLife_5.png" />
 <img src="../assets/img/StillLife_6.png" />
-<img src="../assets/img/StillLife_title.png" /></p>
+<img src="../assets/img/StillLife_7.png" /></p>
 :ET
