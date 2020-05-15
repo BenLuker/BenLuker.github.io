@@ -1,9 +1,7 @@
 logo: # add logo name
-title: Ben Luker - Game Developer
+title: Luker
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Ben Luker is a Programmer, Game Developer, and Digital Media Artist. But cut the crap, what does that actually mean? Basically, I like making games and art on the computer.
 permalink: /:title
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'BenLuker.github.io' # the base hostname & protocol for your site, e.g. http://example.com

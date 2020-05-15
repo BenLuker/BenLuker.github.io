@@ -4014,7 +4014,7 @@ cite {
 }
 
 .main_header {
-  padding: 2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4058,8 +4058,9 @@ cite {
 
 #banner .content {
   padding: 12rem 0 12rem 0;
-  margin: 0 0.5% 1% 0.5%;
+  margin: 0 0% 1% 0%;
   transition: all 0.4s;
+  height: 70vh;
 }
 
 #banner .content .title, #banner .content .sub_title {
@@ -4733,7 +4734,7 @@ cite {
   padding: 0;
   width: 350px;
   height: 350px;
-  background-image: url(../img/Getty_Neutral.png);
+  background-image: url(../img/about/Getty_Neutral.png);
   background-repeat: no-repeat;
   background-size: contain;
 }

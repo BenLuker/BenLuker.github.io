@@ -3,11 +3,16 @@ layout: default
 ---
 {% include header.html %}
 
+{% assign post_date = page.date | truncate: 10, "" %}
+{% assign post_title = page.title | remove: " " %}
+{% assign post_path = post_date | append: "-" | append: post_title | append: "/"  %}
+
 <main class="post_content">
   <article class="post">
     <header>
       <div class="post_image">
-        <img src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        <img src={{ "/assets/img/posts/" | prepend: site.baseurl | append: post_path | append : page.img}}
+          alt="{{page.title}}">
       </div>
       <div class="post_description">
         <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
