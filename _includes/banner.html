@@ -1,5 +1,5 @@
 {% for post in paginator.posts %}
-{% if forloop.index <= 1 %}
+{% if post.featured == true %}
 
 {% assign post_date = post.date | truncate: 10, "" %}
 {% assign post_title = post.title | remove: " " %}
@@ -18,5 +18,7 @@
     </div>
   </a>
 </section>
+
+{% break %}
 {% endif %}
 {% endfor %}

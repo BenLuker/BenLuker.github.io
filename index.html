@@ -2,7 +2,8 @@
 layout: main
 ---
 
-{% for post in paginator.posts offset: 1%}
+{% for post in paginator.posts %}
+{% if post.featured == false %}
 
 {% assign post_date = post.date | truncate: 10, "" %}
 {% assign post_title = post.title | remove: " " %}
@@ -23,4 +24,5 @@ layout: main
     </div>
   </a>
 </div>
+{% endif %}
 {% endfor %}
