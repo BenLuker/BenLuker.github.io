@@ -4063,6 +4063,14 @@ cite {
   height: 70vh;
 }
 
+#banner #banner-vid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 #banner .content .title, #banner .content .sub_title {
   text-align: center;
   color: #ffffff;
