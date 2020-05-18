@@ -4938,7 +4938,9 @@ cite {
   transform: translateY(2px);
 }
 
-#banner, .main_header, .page-content, .post_content, .about, .contact {
+/* --- Animations --- */
+
+#banner, .page-content, .post_content, .about, .contact, #tagFilters {
   -webkit-animation-duration: 0.7s;
   animation-duration: 0.7s;
   -webkit-animation-fill-mode: both;
@@ -4947,10 +4949,21 @@ cite {
   animation-name: fadeInDown;
 }
 
-#banner, .main_header {
+/* --- Fast ---  */
+
+#banner {
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+/* --- Medium --- */
+
+#tagFilters {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
+
+/* --- Slow --- */
 
 .page-content, .post_content, .about, .contact {
   -webkit-animation-delay: 0.75s;

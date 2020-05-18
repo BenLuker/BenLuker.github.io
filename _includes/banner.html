@@ -4,6 +4,7 @@
         {% assign post_date = post.date | truncate: 10, "" %}
         {% assign post_title = post.title | remove: " " %}
         {% assign post_path = post_date | append: "-" | append: post_title  %}
+
         <div class="wrapper">
             <section id="banner">
                 <div class="content" data-vide-bg="{{site.baseurl}}/assets/img/posts/{{post_path}}/{{post.banner}}">
