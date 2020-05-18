@@ -4057,10 +4057,13 @@ cite {
 }
 
 #banner .content {
-  padding: 12rem 0 12rem 0;
-  margin: 0 0% 1% 0%;
+  /* padding: 12rem 0 12rem 0; */
+  margin: 1% 0.5% 1% 0.5%;
   transition: all 0.4s;
   height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #banner #banner-vid {
@@ -4071,8 +4074,15 @@ cite {
   min-height: 100%;
 }
 
-#banner .content .title, #banner .content .sub_title {
-  text-align: center;
+#banner .content .info {
+  margin: auto;
+  width: 50%;
+  align-items: left;
+}
+
+#banner .content .title, #banner .content .sub_title, #banner .content .date, #banner .content .description {
+  /* margin-right: 500px; */
+  /* text-align: left; */
   color: #ffffff;
 }
 
@@ -4084,30 +4094,55 @@ cite {
 #banner .content .sub_title {
   font-weight: 400;
   font-size: 1.35rem;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 0 auto;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 0 auto 2rem auto;
   line-height: 2.5rem;
   font-style: italic;
   display: flex;
 }
 
-.sub_title h2 {
-  margin: 0 2% 0 0;
-}
-
 .sub_title .chapter_tags {
   font-size: 1rem;
   text-transform: uppercase;
-  margin: 0 0.5% 0 0.5%;
+  margin: 0 1rem 0 0;
   padding: 0 0.5% 0 0.5%;
   border-radius: 0.3rem;
   color: #ffffff;
   background-color: #262626;
 }
 
+#banner .content .date {
+  margin: 0 0 0.5rem 0;
+}
+
+#banner .CTA_holders {
+  align-items: left;
+}
+
+#banner .CTA_holder {
+  width: 10rem;
+  height: 3rem;
+}
+
 #banner a {
   text-decoration: none;
+}
+
+#banner a .CTA {
+  color: white;
+  background-color: #c0334a;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+#banner a:hover .CTA {
+  opacity: .8;
 }
 
 /* -- Chapters -- */
@@ -4965,6 +5000,11 @@ cite {
   #banner .content .title {
     font-size: 2.5rem;
     margin: 0 0 1rem 0;
+  }
+  #banner .content .tags {
+    font-size: 1.35rem;
+    line-height: 2rem;
+    font-style: italic;
   }
   #banner .content .sub_title {
     font-size: 1.35rem;
