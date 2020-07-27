@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 gem "bundler"
 gem "jekyll", "~> 4.0.0"
-gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 

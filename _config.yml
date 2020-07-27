@@ -1,45 +1,31 @@
-logo: # add logo name
+# Homepage Settings
 title: Luker
-description: > # this means to ignore newlines until "baseurl:"
-  Ben Luker is a Programmer, Game Developer, and Digital Media Artist. But cut the crap, what does that actually mean? Basically, I like making games and art on the computer.
 permalink: /:title
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'BenLuker.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'BenLuker.github.io'
 
-# Author settings
-author-pic: face.jpg # your photo
-author-name: Ben Luker # your name
-about-author: Benjamin Luker is a Game Developer and Digital Media Artist. He is earning his bachelor’s degree in Applied Computer Science with a concentration in Game Design and a minor in Game Art at Woodbury University. His work centers around creating interactive and narrative experiences for emerging technologies such as VR/AR and Artificial Intelligence, including installations for The Getty Museum and the Burbank Woodbury University campus. He is currently working part time at NASA’s Jet Propulsion Laboratory as a Software Computing System Undergraduate. # about author
-email: your-email@domain.com # your email
-phone: (496)-169-6557 # your pnone number
-website: https://dwayne.example.com # you website
+# Main Page Banner Settings
+banner-title: Benjamin Luker
+banner-description: Applied Computer Science undergrad trained in developing with emerging digital practices to produce experiences emphasizing experiential design and human interaction. What does this mean? I combine art and computer science to create things for people to enjoy.
+banner-cta: View Demo Reel
+banner-cta-link: https://youtu.be/iFmJQnw5dNw
+banner-video-thumbnail: 
+banner-video-webm: assets/img/main/WebsiteBanner.webm
+banner-video-mp4: 
 
-# Social link
-google_url:    # add url link
-twitter_url:   # add url link
-instagram_url: # add url link
-pinterest_url: # add url link
-dribbble_url:  # add url link
-facebook_url:  # add url link
-
-# Disqus
-discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
-
-# Newsletter
-mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-
-# Tracker
-analytics:
-
-# Paginate
-paginate: 10
-paginate_path: /page:num/
+# Featured Posts
+featured-work: /works/WISIWYG
+featured-blog: /blog/RevealFadeShaderGraph
 
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
+
+collections:
+  works:
+    output: true
+  blog:
+    output: true
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
