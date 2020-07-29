@@ -1,28 +1,13 @@
----
-layout: work
-title: GMTK Game Jam 2020
-subtitle: Rocket Powered Tin Cans
-description: Made in 48 hours for the GMTK Game Jam 2020, Rocket Powered Tin Cans fits the theme of the jam "out of control" by requiring the player to maneuver to a goal in zero gravity. Speeding in any given direction by adding rockets to your ship is easy, but without any way to remove them, it's slowing down that's the hard part. Speeding into an asteroid will cause you to spin out of control. You can either attempt to avoid the asteroids or learn to control the spin with the only tool in your arsenal, more rockets!
-date: 2020-07-15
-
-banner-video-webm: assets/img/work/GMTK2020/GMTK2020.webm
-banner-video-mp4: assets/img/work/GMTK2020/GMTK2020.mp4
-image: assets/img/work/GMTK2020/GMTK2.png
-thumbnail: assets/img/work/GMTK2020/GMTK1.png
-
-tags: [Game, Concept, Design, Programming]
----
-
-<p class="blurb">
+I"q<p class="blurb">
     A friend and I sat down for a weekend and participated in our first ever game jam! Rocket Powered Tin Cans was created for the GMTK Game Jam 2020, the largest online international game jam ever, in a timespan of 48 hours.
-    <br><br>
+    <br /><br />
     Out of 5419 entries, we got 286th place in terms of presentation (top 5%!) and we had a blast doing it.
 </p>
 
 <div class="video-container large">
     <h4 class="caption">Gameplay</h4>
-    <video autoplay loop muted poster="../assets/img/work/GMTK2020/GMTK1.png">
-        <source src="../assets/img/work/GMTK2020/GMTK2020.webm" type="video/webm">
+    <video autoplay="" loop="" muted="" poster="../assets/img/work/GMTK2020/GMTK1.png">
+        <source src="../assets/img/work/GMTK2020/GMTK2020.webm" type="video/webm" />
     </video>
 </div>
 
@@ -42,13 +27,14 @@ tags: [Game, Concept, Design, Programming]
 </div>
 
 <div class="image-container medium">
-    <img src="../assets/img/work/GMTK2020/GMTK1.png">
+    <img src="../assets/img/work/GMTK2020/GMTK1.png" />
 </div>
 
 <div class="image-container medium">
-    <img src="../assets/img/work/GMTK2020/GMTK2.png">
+    <img src="../assets/img/work/GMTK2020/GMTK2.png" />
 </div>
 
 <div class="image-container medium">
-    <img src="../assets/img/work/GMTK2020/GMTK3.png">
+    <img src="../assets/img/work/GMTK2020/GMTK3.png" />
 </div>
+:ET
