@@ -1,0 +1,350 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.0-c002 79.164360, 2020/02/13-01:07:22        " rdfhash="5DE7EF76C51E71A5FDC9C54A8C08D12F" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+    xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmpMM:InstanceID="xmp.iid:ed1f929c-8736-f84a-a04d-4b21049bd34c"
+   xmpMM:DocumentID="992d1361-f0c7-f88f-15bd-175f00000045"
+   xmpMM:OriginalDocumentID="xmp.did:dfeb3acc-179b-5149-8d5f-0d16cb721bd5"
+   xmp:MetadataDate="2020-07-29T01:02:12-07:00"
+   xmp:ModifyDate="2020-07-29T01:02:12-07:00"
+   xmp:CreatorTool="Adobe Premiere Pro 2020.0 (Windows)"
+   xmp:CreateDate="2020-07-29T00:56:52-07:00"
+   xmpDM:videoFrameRate="29.970030"
+   xmpDM:videoFieldOrder="Progressive"
+   xmpDM:videoPixelAspectRatio="1/1"
+   xmpDM:audioSampleRate="48000"
+   xmpDM:audioSampleType="Compressed"
+   xmpDM:audioChannelType="Stereo"
+   xmpDM:startTimeScale="30000"
+   xmpDM:startTimeSampleSize="1001"
+   dc:format="WebM">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="7f606405-850b-bc1b-d21e-466600000072"
+      stEvt:when="2020-07-29T01:02:12-07:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:1fbff152-0c69-8846-92a6-c0db9b77ff54"
+      stEvt:when="2020-07-29T00:55:28-07:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:23234b4c-9668-e547-a4c5-e5a96b8abf56"
+      stEvt:when="2020-07-29T01:02:12-07:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:ed1f929c-8736-f84a-a04d-4b21049bd34c"
+      stEvt:when="2020-07-29T01:02:12-07:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="0c492be7-9e4d-48a5-6f16-857100000086"
+      stRef:documentID="302282db-1f05-d361-dc6b-fc8500000059"
+      stRef:fromPart="time:6882241766400f254016000000d364453689600f254016000000"
+      stRef:toPart="time:3517401888000f254016000000d364453689600f254016000000"
+      stRef:filePath="2020-07-29 00-02-08.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="0c492be7-9e4d-48a5-6f16-857100000086"
+      stRef:documentID="302282db-1f05-d361-dc6b-fc8500000059"
+      stRef:fromPart="time:10043665632000f254016000000d432259027200f254016000000"
+      stRef:toPart="time:5475281011200f254016000000d432259027200f254016000000"
+      stRef:filePath="2020-07-29 00-02-08.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="2bde5a26-31c1-7dff-549e-64140000006a"
+      stRef:documentID="551bebd1-3ae6-0e0c-fc30-3c420000003d"
+      stRef:fromPart="time:6060102048000f254016000000d1381533753600f254016000000"
+      stRef:toPart="time:0d1381533753600f254016000000"
+      stRef:filePath="Intro.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="76dad4e8-fa24-57fc-a36f-7eb500000086"
+      stRef:documentID="29342ddc-ee83-7f8d-c1cc-f7fb00000059"
+      stRef:fromPart="time:4297163270400f254016000000d279697017600f254016000000"
+      stRef:toPart="time:2415565152000f254016000000d279697017600f254016000000"
+      stRef:filePath="2020-07-29 00-05-35.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="76dad4e8-fa24-57fc-a36f-7eb500000086"
+      stRef:documentID="29342ddc-ee83-7f8d-c1cc-f7fb00000059"
+      stRef:fromPart="time:4593811622400f254016000000d127135008000f254016000000"
+      stRef:toPart="time:2695262169600f254016000000d127135008000f254016000000"
+      stRef:filePath="2020-07-29 00-05-35.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="76dad4e8-fa24-57fc-a36f-7eb500000086"
+      stRef:documentID="29342ddc-ee83-7f8d-c1cc-f7fb00000059"
+      stRef:fromPart="time:4737897964800f254016000000d93232339200f254016000000"
+      stRef:toPart="time:2822397177600f254016000000d93232339200f254016000000"
+      stRef:filePath="2020-07-29 00-05-35.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="76dad4e8-fa24-57fc-a36f-7eb500000086"
+      stRef:documentID="29342ddc-ee83-7f8d-c1cc-f7fb00000059"
+      stRef:fromPart="time:2186722137600f254016000000d610248038400f254016000000"
+      stRef:toPart="time:4865032972800f254016000000d610248038400f254016000000"
+      stRef:filePath="2020-07-29 00-05-35.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="8e2d373f-8a6d-e796-3fa0-9fef00000086"
+      stRef:documentID="a15ff93e-5a15-9319-5017-038700000059"
+      stRef:fromPart="time:1305252748800f254016000000d1034031398400f254016000000"
+      stRef:toPart="time:1381533753600f254016000000d1034031398400f254016000000"
+      stRef:filePath="2020-07-29 00-03-38.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="8e2d373f-8a6d-e796-3fa0-9fef00000086"
+      stRef:documentID="a15ff93e-5a15-9319-5017-038700000059"
+      stRef:fromPart="time:4856557305600f254016000000d652626374400f254016000000"
+      stRef:toPart="time:3881855577600f254016000000d652626374400f254016000000"
+      stRef:filePath="2020-07-29 00-03-38.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="dcd23607-7b38-4ad8-ff6e-c73100000086"
+      stRef:documentID="26e637a9-96f8-ee77-7181-2b8e00000059"
+      stRef:fromPart="time:1737511776000f254016000000d601772371200f254016000000"
+      stRef:toPart="time:2915629516800f254016000000d601772371200f254016000000"
+      stRef:filePath="2020-07-29 00-00-35.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="fa419d4e-8044-7a71-434d-043100000086"
+      stRef:documentID="3b94d3ad-5989-4f7e-2a77-fe1300000059"
+      stRef:fromPart="time:10450497657600f254016000000d330551020800f254016000000"
+      stRef:toPart="time:4534481952000f254016000000d330551020800f254016000000"
+      stRef:filePath="2020-07-29 00-07-28.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="fa419d4e-8044-7a71-434d-043100000086"
+      stRef:documentID="3b94d3ad-5989-4f7e-2a77-fe1300000059"
+      stRef:fromPart="time:6789009427200f254016000000d76281004800f254016000000"
+      stRef:toPart="time:5907540038400f254016000000d76281004800f254016000000"
+      stRef:filePath="2020-07-29 00-07-28.mp4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="fa419d4e-8044-7a71-434d-043100000086"
+      stRef:documentID="3b94d3ad-5989-4f7e-2a77-fe1300000059"
+      stRef:fromPart="time:6899193100800f254016000000d1101836736000f254016000000"
+      stRef:toPart="time:5983821043200f254016000000d1101836736000f254016000000"
+      stRef:filePath="2020-07-29 00-07-28.mp4"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="1904-01-01T00:00Z"
+       xmp:ModifyDate="2020-07-29T00:11:12-07:00"
+       xmp:MetadataDate="2020-07-29T00:11:12-07:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="0c492be7-9e4d-48a5-6f16-857100000086"
+       xmpMM:DocumentID="302282db-1f05-d361-dc6b-fc8500000059"
+       xmpMM:OriginalDocumentID="xmp.did:27874198-543d-e54a-8e12-747002d256bb">
+      <xmpDM:duration
+       xmpDM:value="45980"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="0c492be7-9e4d-48a5-6f16-857100000086"
+         stEvt:when="2020-07-29T00:11:12-07:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="1904-01-01T00:00Z"
+       xmp:ModifyDate="2020-07-29T00:11:15-07:00"
+       xmp:MetadataDate="2020-07-29T00:11:15-07:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="2bde5a26-31c1-7dff-549e-64140000006a"
+       xmpMM:DocumentID="551bebd1-3ae6-0e0c-fc30-3c420000003d"
+       xmpMM:OriginalDocumentID="xmp.did:b14c174b-2616-9a4b-aa9b-ee8756bbaf32">
+      <xmpDM:duration
+       xmpDM:value="42977"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="2bde5a26-31c1-7dff-549e-64140000006a"
+         stEvt:when="2020-07-29T00:11:15-07:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="1904-01-01T00:00Z"
+       xmp:ModifyDate="2020-07-29T00:11:13-07:00"
+       xmp:MetadataDate="2020-07-29T00:11:13-07:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="76dad4e8-fa24-57fc-a36f-7eb500000086"
+       xmpMM:DocumentID="29342ddc-ee83-7f8d-c1cc-f7fb00000059"
+       xmpMM:OriginalDocumentID="xmp.did:51b4927f-c2a4-4f41-9a7b-fc832a49a2fe">
+      <xmpDM:duration
+       xmpDM:value="84151"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="76dad4e8-fa24-57fc-a36f-7eb500000086"
+         stEvt:when="2020-07-29T00:11:13-07:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="1904-01-01T00:00Z"
+       xmp:ModifyDate="2020-07-29T00:11:12-07:00"
+       xmp:MetadataDate="2020-07-29T00:11:12-07:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="8e2d373f-8a6d-e796-3fa0-9fef00000086"
+       xmpMM:DocumentID="a15ff93e-5a15-9319-5017-038700000059"
+       xmpMM:OriginalDocumentID="xmp.did:98e6af68-6f54-3a4e-b5be-86377a8bf413">
+      <xmpDM:duration
+       xmpDM:value="56090"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="8e2d373f-8a6d-e796-3fa0-9fef00000086"
+         stEvt:when="2020-07-29T00:11:12-07:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="1904-01-01T00:00Z"
+       xmp:ModifyDate="2020-07-29T00:11:12-07:00"
+       xmp:MetadataDate="2020-07-29T00:11:12-07:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="dcd23607-7b38-4ad8-ff6e-c73100000086"
+       xmpMM:DocumentID="26e637a9-96f8-ee77-7181-2b8e00000059"
+       xmpMM:OriginalDocumentID="xmp.did:61aa74fd-039f-0b4f-b1a8-a7931ea87f91">
+      <xmpDM:duration
+       xmpDM:value="53921"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="dcd23607-7b38-4ad8-ff6e-c73100000086"
+         stEvt:when="2020-07-29T00:11:12-07:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="1904-01-01T00:00Z"
+       xmp:ModifyDate="2020-07-29T00:11:14-07:00"
+       xmp:MetadataDate="2020-07-29T00:11:14-07:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="fa419d4e-8044-7a71-434d-043100000086"
+       xmpMM:DocumentID="3b94d3ad-5989-4f7e-2a77-fe1300000059"
+       xmpMM:OriginalDocumentID="xmp.did:84998012-d3d2-3945-acd6-ed449410e244">
+      <xmpDM:duration
+       xmpDM:value="46247"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="fa419d4e-8044-7a71-434d-043100000086"
+         stEvt:when="2020-07-29T00:11:14-07:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2020.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:1fbff152-0c69-8846-92a6-c0db9b77ff54"
+    stRef:documentID="xmp.did:1fbff152-0c69-8846-92a6-c0db9b77ff54"
+    stRef:originalDocumentID="xmp.did:1fbff152-0c69-8846-92a6-c0db9b77ff54"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"
+    creatorAtom:uncProjectPath="\\?\D:\Footage\GMTK 2020\Premiere\GMTK_V2.prproj"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:videoFrameSize
+    stDim:w="1920"
+    stDim:h="1080"
+    stDim:unit="pixel"/>
+   <xmpDM:duration
+    xmpDM:value="836"
+    xmpDM:scale="1001/30000"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="2997DropTimecode"
+    xmpDM:timeValue="00;00;00;00"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00;00;00;00"
+    xmpDM:timeFormat="2997DropTimecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
