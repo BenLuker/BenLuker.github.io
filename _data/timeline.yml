@@ -1,0 +1,21 @@
+- title: Student, Woodbury University
+  from: August 2017
+  to: May 2021
+  description: Awarded Bachelor of Science in Applied Computer Science and a minor in Game Art and Design with honors.
+               During my time at Woodbury, I was trained in developing with emerging digital practices to produce experiences
+               emphasizing experiential design and human interaction.
+
+- title: Intern, Jet Propulsion Laboratory
+  from: June 2019
+  to: September 2019
+  description: For my 10 week internship at JPL, I established an automated testing framework with Robot Framework to help
+               with generating reports for every sprint. 50+ manual test cases were converted to the automated system, and
+               running the tests updated their Testrail counterparts automatically with the results using its API.
+
+- title: Software Computing System Undergraduate, Jet Propulsion Laboratory
+  from: November 2019
+  to: September 2020
+  description: After my internship, I was offered a part-time position to take place during school. During this time, I was
+               given the opportunity to work directly on the web-based Unity project I had previously created tests for. On
+               this project, I coded features and enhancements as well as removed bugs and reduced dependencies for better project
+               performance with C# and JavaScript. Additionally, I implemented user interfaces with Unity and React.

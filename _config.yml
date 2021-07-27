@@ -1,31 +1,98 @@
-# Homepage Settings
-title: Luker
-permalink: /:title
-url: 'BenLuker.github.io'
+### Site Settings ###
+title               : Ben Luker
+description         : >-
+                      Hello there! I'm Ben, and I've just graduated with a Bachelor of Science in Applied Computer Science Media Arts
+                      and a minor in Game Art and Design.
+baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : BenLuker/BenLuker.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
 
-# Main Page Banner Settings
-banner-title: Benjamin Luker
-banner-description: Applied Computer Science undergrad trained in developing with emerging digital practices to produce experiences emphasizing experiential design and human interaction. What does this mean? I combine art and computer science to create things for people to enjoy.
-banner-cta: View Demo Reel
-banner-cta-link: https://youtu.be/iFmJQnw5dNw
-banner-video-thumbnail: 
-banner-video-webm: assets/img/main/WebsiteBanner.webm
-banner-video-mp4: 
 
-# Featured Posts
-featured-work: /works/WISIWYG
-featured-blog: /blog/RevealFadeShaderGraph
-
-# Build settings
-markdown: kramdown
+### Plugins ###
 plugins:
-  - jekyll-sitemap
+  - jemoji
 
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - pages/blog.html
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Ben Luker
+  image             : https://drive.google.com/uc?export=view&id=1_u2gzE4ZcjM8oH6PuuWeczahUAaLRQjS
+  # behance           : your_username
+  # dribbble          : your_username
+  # email             : username@domain.com
+  # facebook          : your_username
+  github            : BenLuker
+  # gitlab            : your_username
+  # instagram         : your_username
+  # kaggle            : your_username
+  linkedin          : ben-luker-097756179
+  # medium            : your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # stackoverflow     : your_user_id
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
+  twitter           : BenLuker2
+  # vimeo             : your_username
+  youtube           : channel/UCtjNuKSko3lIXBiF4XKZbLA
+  # keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
 collections:
-  works:
+  projects:
     output: true
-  blog:
-    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
 
-include: [_pages]
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+# ### Disqus ###
+# disqus:
+#   shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+# ### Analytics ###
+# analytics:
+#   enabled: false                                        # Set true to enable analytics
+#   google:
+#     tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
