@@ -11,7 +11,7 @@ permalink: wisiwyg
 ___
 
 <div>
-    <video class="figure w-100" autoplay loop muted poster="https://drive.google.com/uc?export=view&id=16YtRdrje4qthwjVmIb_inF7tBdA_7yGP">
+    <video class="figure w-100" autoplay loop muted controls poster="https://drive.google.com/uc?export=view&id=16YtRdrje4qthwjVmIb_inF7tBdA_7yGP">
         <source src="https://drive.google.com/uc?export=view&id=1lpNXwmYQ5mCqwyc7S-hiZL_vtfbtj-Rj" type="video/mp4">
     </video>
 </div>
@@ -22,7 +22,7 @@ I was given the opportunity to work on an installation for the Getty! I and thre
 My job was to make the "playback system", aka the state machine. It linked all of the different art pieces to create a cohesive experience. I also created the idle state for the installation, which was an iterative art piece that got a digital stroke added to it with each complete interaction. Everyone who used the installation added to the piece, and over the course of the night the piece began to take shape.
 
 <div>
-    <video class="figure w-100" autoplay loop muted poster="https://drive.google.com/uc?export=view&id=1zGla-9__5DAqHE3k_RMwemKtVVOPs8zG">
+    <video class="figure w-100" autoplay loop muted controls poster="https://drive.google.com/uc?export=view&id=1zGla-9__5DAqHE3k_RMwemKtVVOPs8zG">
         <source src="https://drive.google.com/uc?export=view&id=1oxb0Be4C6b2fivuVUbJpa7SPDA5kYlc0" type="video/mp4">
     </video>
 </div>
