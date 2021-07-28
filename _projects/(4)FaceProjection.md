@@ -2,7 +2,8 @@
 name: Face Projection
 tools: [TouchDesigner]
 image: https://drive.google.com/uc?export=view&id=1_Op5UsOSj6aJI4v4kFKpAsasJnJJ2V1_
-description: Projection mapping visualized emotions onto a 3D model of my face. 
+description: Projection mapping visualized emotions onto a 3D model of my face.
+permalink: face-projection
 ---
 
 # Face Projection

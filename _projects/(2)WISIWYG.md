@@ -3,6 +3,7 @@ name: WISIWYG
 tools: [TouchDesigner]
 image: https://drive.google.com/uc?export=view&id=1GFSKs7EcgjKcIufHMdsvlNn7snQf2-u6
 description: Debuted at the Getty Center, this installation named “WISIWYG" (What I See Is What You Get), produced live data and animations by analyzing user facial expressions and used a machine learning algorithm to train the artificial neural network models from the Getty Museum’s art collection. It now runs live at Woodbury University's School of Business building.
+permalink: wisiwyg
 ---
 
 # WISISWYG

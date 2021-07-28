@@ -3,6 +3,7 @@ name: Still Life Animated
 tools: [Maya]
 image: https://drive.google.com/uc?export=view&id=1gcrj1ZVJ_l0_9n1NxwzGIyOsMJapVUmw
 description: With a week to make the final assignment for my "Intro to 3D Worlds class", I created a still life scene in Maya and animated it.
+permalink: still-life
 ---
 
 # Still Life Animated
