@@ -1,11 +1,24 @@
 - name: Unity C#
-  percentage: 80
+  years: 4.5
+  percentage: 100
   color: danger
 
 - name: HTML5/CSS3
-  percentage: 50
-  color:
+  years: 3
+  percentage: 75
+  color: info
 
 - name: Python
-  percentage: 50
+  years: 2.5
+  percentage: 60
+  color: warning
+
+- name: JavaScript
+  years: 1.5
+  percentage: 45
+  color: success
+
+- name: Robot Framework/Selenium
+  years: 1
+  percentage: 40
   color: secondary
