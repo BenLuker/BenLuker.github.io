@@ -6,12 +6,12 @@ let connectionRange = 100;
 let particles = [];
 
 function setup() {
+    pixelDensity(1);
     var parentDiv = document.getElementById(parentID);
     var width = parentDiv.offsetWidth;
-    // var canvas = createCanvas(width,windowHeight * 0.8);
     var canvas = createCanvas(windowWidth,windowHeight * 0.8);
     canvas.parent(parentID);
-    canvas.id("landingCanvas")
+    canvas.id("landingCanvas");
 
     for(let i = 0;i<width * particleDensity / 10;i++){
         particles.push(new Particle());
@@ -21,7 +21,6 @@ function setup() {
 function windowResized() {
     var parentDiv = document.getElementById(parentID);
     var width = parentDiv.offsetWidth;
-    // resizeCanvas(width,windowHeight * 0.8);
     resizeCanvas(windowWidth,windowHeight * 0.8);
 }
 
