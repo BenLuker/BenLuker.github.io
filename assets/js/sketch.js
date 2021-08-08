@@ -1,7 +1,7 @@
 // Particle Animation code from: https://p5js.org/examples/simulate-particles.html
 
 let parentID = 'animatedCanvas';
-let particleDensity = 5;
+let particleDensity = 25;
 let connectionRange = 100;
 let particles = [];
 
@@ -13,7 +13,7 @@ function setup() {
     canvas.parent(parentID);
     canvas.id("landingCanvas");
 
-    for(let i = 0;i<width * particleDensity / 10;i++){
+    for (let i = 0; i <  (width * height) * (particleDensity / 100000); i++) {
         particles.push(new Particle());
     }
 }
