@@ -1,9 +1,13 @@
 // Particle Animation code from: https://p5js.org/examples/simulate-particles.html
 
-let parentID = 'animatedCanvas';
+// Parameters
 let particleDensity = 25;
 let connectionRange = 100;
+let fadeInTime = 1;
+
+let parentID = 'animatedCanvas';
 let particles = [];
+let opacity;
 
 function setup() {
     pixelDensity(1);
@@ -13,7 +17,7 @@ function setup() {
     canvas.parent(parentID);
     canvas.id("landingCanvas");
 
-    for (let i = 0; i <  (width * height) * (particleDensity / 100000); i++) {
+    for (let i = 0; i < (width * height) * (particleDensity / 100000); i++) {
         particles.push(new Particle());
     }
 }
@@ -26,6 +30,7 @@ function windowResized() {
 
 function draw() {
     background('#17191a');
+    opacity = min((millis() / (1000 * fadeInTime)), 1); 
     for(let i = 0;i<particles.length;i++) {
       particles[i].createParticle();
       particles[i].moveParticle();
@@ -48,7 +53,7 @@ class Particle {
     // creation of a particle.
       createParticle() {
         noStroke();
-        fill('rgba(200,169,169,0.5)');
+        fill(200,169,169,128 * opacity);
         circle(this.x,this.y,this.r);
       }
     
@@ -68,7 +73,7 @@ class Particle {
         particles.forEach(element =>{
           let dis = dist(this.x,this.y,element.x,element.y);
           if(dis<connectionRange) {
-            stroke('rgba(255,255,255,0.04)');
+            stroke(255,255,255,10 * opacity);
             line(this.x,this.y,element.x,element.y);
           }
         });
