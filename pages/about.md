@@ -5,6 +5,8 @@ permalink: /about/
 weight: 3
 ---
 
+{% include elements/animatedBackground.html %}
+
 # **About Me**
 
 Hello! My name is Ben.<br>I'm an Applied Computer Science graduate looking to strengthen traditional CS skills in the workplace. Experienced with Unity and web development. Well-versed in automated integration web testing. Trained in developing with emerging technologies to produce experiences involving interactive environments, experiential design and human interaction.

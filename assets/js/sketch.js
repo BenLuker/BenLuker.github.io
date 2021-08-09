@@ -5,30 +5,45 @@ let particleDensity = 25;
 let connectionRange = 100;
 let fadeInTime = 1;
 
-let parentID = 'animatedCanvas';
+let parentID = 'animatedBackground';
+let footerID = 'footer';
 let particles = [];
 let opacity;
+let frameOne = true;
 
 function setup() {
-    pixelDensity(1);
-    var parentDiv = document.getElementById(parentID);
-    var width = parentDiv.offsetWidth;
-    var canvas = createCanvas(windowWidth,windowHeight * 0.8);
-    canvas.parent(parentID);
-    canvas.id("landingCanvas");
+  pixelDensity(1);
+  let footerDiv = document.getElementById(footerID);
+  let height = footerDiv.offsetTop - footerDiv.offsetHeight - 32;
+  let canvas = createCanvas(document.body.scrollWidth,height);
+  canvas.parent(parentID);
+  canvas.id("landingCanvas");
 
-    for (let i = 0; i < (width * height) * (particleDensity / 100000); i++) {
-        particles.push(new Particle());
-    }
+  for (let i = 0; i < (width * height) * (particleDensity / 100000); i++) {
+      particles.push(new Particle());
+  }
 }
 
 function windowResized() {
-    var parentDiv = document.getElementById(parentID);
-    var width = parentDiv.offsetWidth;
-    resizeCanvas(windowWidth,windowHeight * 0.8);
+  setCanvasSize()
+}
+
+function setCanvasSize() {
+  let footerDiv = document.getElementById(footerID);
+  let height = footerDiv.offsetTop - footerDiv.offsetHeight - 32;
+  resizeCanvas(document.body.scrollWidth,height);
 }
 
 function draw() {
+  if (frameOne) {
+    setCanvasSize()
+    frameOne = false;
+  }
+
+  let footerDiv = document.getElementById(footerID);
+  let height = footerDiv.offsetTop - footerDiv.offsetHeight - 32;
+  console.log(height);
+
     background('#17191a');
     opacity = min((millis() / (1000 * fadeInTime)), 1); 
     for(let i = 0;i<particles.length;i++) {
