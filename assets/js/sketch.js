@@ -16,7 +16,8 @@ function setup() {
   let height = footerDiv.offsetTop - footerDiv.offsetHeight - 32;
   let canvas = createCanvas(document.body.scrollWidth,height);
   canvas.parent(parentID);
-  canvas.id("landingCanvas");
+  canvas.style("position: absolute");
+  canvas.style("z-index: -100");
 
   for (let i = 0; i < (width * height) * (particleDensity / 100000); i++) {
       particles.push(new Particle());
@@ -26,6 +27,8 @@ function setup() {
 let resized = false;
 function draw() {
   opacity = min((millis() / (1000 * fadeInTime)), 1); 
+  let speed = abs(winMouseX - pwinMouseX);
+  let dirX = 
 
   clear();
   for(let i = 0;i<particles.length;i++) {
