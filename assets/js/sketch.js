@@ -9,7 +9,6 @@ let parentID = 'animatedBackground';
 let footerID = 'footer';
 let particles = [];
 let opacity;
-let frameOne = true;
 
 function setup() {
   pixelDensity(1);
@@ -24,33 +23,22 @@ function setup() {
   }
 }
 
-function windowResized() {
-  setCanvasSize()
+let resized = false;
+function draw() {
+  opacity = min((millis() / (1000 * fadeInTime)), 1); 
+
+  clear();
+  for(let i = 0;i<particles.length;i++) {
+    particles[i].createParticle();
+    particles[i].moveParticle();
+    particles[i].joinParticles(particles.slice(i));
+  }
 }
 
-function setCanvasSize() {
+function windowResized() {
   let footerDiv = document.getElementById(footerID);
   let height = footerDiv.offsetTop - footerDiv.offsetHeight - 32;
   resizeCanvas(document.body.scrollWidth,height);
-}
-
-function draw() {
-  if (frameOne) {
-    setCanvasSize()
-    frameOne = false;
-  }
-
-  let footerDiv = document.getElementById(footerID);
-  let height = footerDiv.offsetTop - footerDiv.offsetHeight - 32;
-  console.log(height);
-
-    background('#17191a');
-    opacity = min((millis() / (1000 * fadeInTime)), 1); 
-    for(let i = 0;i<particles.length;i++) {
-      particles[i].createParticle();
-      particles[i].moveParticle();
-      particles[i].joinParticles(particles.slice(i));
-    }
 }
 
 // this class describes the properties of a single particle.
