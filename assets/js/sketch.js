@@ -45,6 +45,10 @@ function windowResized() {
   resizeCanvas(document.body.scrollWidth,height);
 }
 
+function isMobileDevice() {
+  return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};
+
 // this class describes the properties of a single particle.
 class Particle {
     // setting the co-ordinates, radius and the
@@ -66,21 +70,14 @@ class Particle {
     
     // setting the particle in motion.
       moveParticle() {
-        let dis = dist(this.x,this.y,mouseX,mouseY);
-        let influence = map(dis, 0, mouseFalloff, 1, 0, true);
-
-        // let mouseInfluence = createVector((abs(mouseVel.x) / mouseVel.x) * (min(abs(mouseVel.x), maxInfluence)), (abs(mouseVel.y) / mouseVel.y) * (min(abs(mouseVel.y), maxInfluence)));
         if ((this.x < 0 && this.xSpeed < 0) || (this.x > width && this.xSpeed > 0))
           this.xSpeed*=-1;
         if ((this.y < 0 && this.ySpeed < 0) || (this.y > height && this.ySpeed > 0))
           this.ySpeed*=-1;
-        // if(this.x < 0 || this.x > width)
-        //   this.xSpeed*=-1;
-        // if(this.y < 0 || this.y > height)
-        //   this.ySpeed*=-1;
-        // this.xSpeed += dir.x;
-        // this.ySpeed += dir.y; 
         
+        let dis = dist(this.x,this.y,mouseX,mouseY);
+        let influence = map(dis, 0, mouseFalloff, 1, 0, true);
+        influence = isMobileDevice() ? 0 : influence;
         this.x+=this.xSpeed + (mouseVel.x * mouseStrength * influence);
         this.y+=this.ySpeed + (mouseVel.y * mouseStrength * influence);
       }
