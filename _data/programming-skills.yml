@@ -1,4 +1,4 @@
-- name: Unity C#
+- name: C# Mono
   years: 4.5
   percentage: 100
   color: danger
@@ -18,7 +18,12 @@
   percentage: 45
   color: success
 
-- name: Robot Framework/Selenium
+- name: HLSL
+  years: 1
+  percentage: 40
+  color: primary
+
+- name: Selenium
   years: 1
   percentage: 40
   color: secondary

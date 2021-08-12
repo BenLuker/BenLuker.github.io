@@ -9,14 +9,15 @@ weight: 3
 
 # **About Me**
 
-Hello! My name is Ben.<br>I'm an Applied Computer Science graduate looking to strengthen traditional CS skills in the workplace. Experienced with Unity and web development. Well-versed in automated integration web testing. Trained in developing with emerging technologies to produce experiences involving interactive environments, experiential design and human interaction.
+Hi I'm **Ben** :wave:,<br>
 
-<!-- Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. -->
+Ambitious, freshly graduated **Software Developer** and **Technical Artist** with a specialization in working with emerging technologies and already over a year of professional experience developing software for NASA/JPL.
+
+Equipped with a highly versatile experience developing video games, generative art installations, XR experiences, webapps, and automated testing frameworks. Excited to strengthen traditional CS skills in the workplace and power beautiful experiences through meticulous engineering.
 
 <div class="row">
 {% include about/skills.html title="Frameworks / Languages" source=site.data.programming-skills %}
-{% include about/skills.html title="Art and Design" source=site.data.other-skills %}
+{% include about/skills.html title="3D / Art Software" source=site.data.other-skills %}
 </div>
 
 <div class="row">

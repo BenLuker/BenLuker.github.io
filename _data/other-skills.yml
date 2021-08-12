@@ -1,22 +1,27 @@
 - name: Adobe Photoshop
-  years: 10
+  years: 5
   percentage: 100
   color: primary
 
-- name: Adobe Premiere
-  years: 8
+- name: Unity 3D
+  years: 4.5
   percentage: 90
-  color: info
+  color: success
 
 - name: Autodesk Maya
   years: 3
-  percentage: 50
-  color: warning
+  percentage: 65
+  color: danger
 
-- name: Blender
+- name: Substance Painter
   years: 2
   percentage: 45
-  color: success
+  color: warning
+
+- name: TouchDesigner
+  years: 2
+  percentage: 45
+  color: info
 
 - name: Adobe XD
   years: 1.5
