@@ -1,7 +1,6 @@
 // Particle Animation code from: https://p5js.org/examples/simulate-particles.html
 
 // Parameters
-let particleDensity = 25;
 let connectionRange = 100;
 let fadeInTime = 1;
 let mouseStrength = 0.5;
@@ -77,7 +76,7 @@ class Particle {
         
         let dis = dist(this.x,this.y,mouseX,mouseY);
         let influence = map(dis, 0, mouseFalloff, 1, 0, true);
-        influence = isMobileDevice() ? 0 : influence;
+        influence = interactable && !isMobileDevice() ? influence : 0;
         this.x+=this.xSpeed + (mouseVel.x * mouseStrength * influence);
         this.y+=this.ySpeed + (mouseVel.y * mouseStrength * influence);
       }

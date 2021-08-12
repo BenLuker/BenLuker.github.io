@@ -5,7 +5,7 @@ permalink: /about/
 weight: 3
 ---
 
-{% include elements/animatedBackground.html %}
+{% include elements/animatedBackground.html density=15 %}
 
 # **About Me**
 

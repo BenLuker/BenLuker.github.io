@@ -1,2 +1,6 @@
+<script>
+    let particleDensity = "{{ include.density }}" != "" ? "{{ include.density }}" : 25;
+    let interactable = "{{ include.interactable }}" != "" ? "{{ include.interactable }}" : false;
+</script>
 <script src="{{ '/assets/js/sketch.js' | relative_url }}"></script>
 <div id="animatedBackground" class="row justify-content-center align-items-start"></div>
